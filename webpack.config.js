@@ -43,7 +43,30 @@ module.exports = {
                     require.resolve('babel-plugin-transform-decorators-legacy')
                 ]
               }
-          }
+          },
+          // {
+          //    test: /\.scss$/,
+          //   //  include: 'src/..',
+          //   //  use: appCss.extract({
+          //      use: [
+          //        {
+          //          loader: 'css-loader',
+          //          options: { importLoaders: 1 }
+          //        },
+          //        {
+          //          loader: 'postcss-loader',
+          //          options: {
+          //            plugins: function() {
+          //              autoprefixer({
+          //                browsers: ['last 2 version', 'ie >= 11']
+          //              })
+          //            }
+          //          }
+          //        },
+          //        'sass-loader'
+          //      ]
+          //   //  })
+        //  }
       ]
   },
   resolve: {
